@@ -1,0 +1,11 @@
+.Victoria {
+  display: flex;
+  width: 700px;
+  height: 600px;
+  margin: 0 auto;
+  justify-content: space-around;
+  background: aquamarine;
+  align-items: center;
+  flex-flow: column;
+  font-size: 60px;
+}
