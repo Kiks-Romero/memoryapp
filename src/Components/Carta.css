@@ -1,12 +1,24 @@
 .carta {
   width: 125px;
   height: 125px;
+  margin: auto;
 }
 
 .portada {
   width: 125px;
   height: 125px;
-  background-color: #ffb300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 7px 4px 5px #092049;
+  background-color: #edbc64;
+  background-image: -webkit-linear-gradient(top, #edbc64, #ed6495);
+}
+
+.portada:hover {
+  background-color: #ed6495;
+  background-image: -webkit-linear-gradient(top, #ed6495, #edbc64);
 }
 
 .contenido {

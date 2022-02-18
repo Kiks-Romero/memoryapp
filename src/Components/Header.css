@@ -1,6 +1,6 @@
 header {
   height: 50px;
-  border: 1px solid black;
+
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
@@ -17,4 +17,24 @@ header {
   position: absolute;
   left: 12px;
   top: 58px;
+  background: #ed6495;
+
+  background-image: -webkit-linear-gradient(top, #ed6495, #6495ed);
+  border-radius: 28px;
+  text-shadow: 3px 2px 1px #9daef5;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fafafa;
+  font-size: 27px;
+  padding: 19px;
+  text-decoration: none;
+
+  /* background-image: -webkit-linear-gradient(top, #ed6495, #6495ed); */
+  /* background-image: -moz-linear-gradient(top, #ed6495, #6495ed);
+  background-image: -ms-linear-gradient(top, #ed6495, #6495ed);
+  background-image: -o-linear-gradient(top, #ed6495, #6495ed);
+  background-image: linear-gradient(to bottom, #ed6495, #6495ed); */
+}
+.button-reiniciar:hover {
+  background: #6495ed;
+  background-image: -webkit-linear-gradient(top, #6495ed, #ed6495);
 }

@@ -8,7 +8,7 @@ const Carta = (props) => {
       <ReactCardFlip
         isFlipped={props.estaSiendoComparada || props.fueAdivinada}
       >
-        <div className="portada"></div>
+        <div className="portada">K</div>
         <div className="contenido">
           <i className={`fa ${props.icono} fa-5x`}></i>
         </div>
